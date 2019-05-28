@@ -1,8 +1,8 @@
 # visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
-title: BZR
-SEOTitle: BruceZhao's Blog
-author: Bruce Zhao
-timezone: Asia/Shanghai
+title: Eric.x
+SEOTitle: Eric.x's Blog
+author: Eric.x
+timezone: Asia/Shenzhen
 paginate: 10 # pagination based on number of posts
 paginate_path: "page:num"
 highlighter: rouge
@@ -16,7 +16,7 @@ gems:
   - jekyll-feed
 
 # 国内用多说
-# disqus: brucezhaor
+ disqus: Eric.x
 
 #Google Analytics https://developers.google.com/analytics/devguides/collection/analyticsjs/
 #去_layout/default.html的头文件中去设置.
@@ -40,12 +40,12 @@ BASE_PATH:
 
 # SNS settings
 
-weibo_username:     brucezhaor
-facebook_username:     BruceZhaoR
-github_username:    BruceZhaoR
+weibo_username:     Eric.x
+facebook_username:     Eric.x
+github_username:    eric-hello
 google_username:  101167914127123982138/posts
 RSS: feed.xml
-email: brucezhaor2016@gmail.com
+email: doreanmon@yahoo.com
 linkedin: brucezhaor
 
 anchorjs: true                          # 修改在default.html->footer
@@ -53,10 +53,10 @@ anchorjs: true                          # 修改在default.html->footer
 
 # 评论系统
 # Duoshuo settings
-duoshuo_username: brucezhaor
+#duoshuo_username: brucezhaor
 # Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: true                     # set to false if you want to use Comment without Sharing
-url: "http://brucezhaor.github.io" 
+#duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+#url: "http://brucezhaor.github.io" 
 
 # page Sidebar settings
 sidebar-about-description: "A future technique geek."
