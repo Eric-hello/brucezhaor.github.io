@@ -1,0 +1,84 @@
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+title: "Eric.x"
+SEOTitle: Eric.x's Blog
+author: Eric xin
+timezone: Asia/shenzhen
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM                       # use Github Flavored Markdown !important
+  
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+
+# 国内用多说
+ disqus: Eric.x
+
+#Google Analytics https://developers.google.com/analytics/devguides/collection/analyticsjs/
+#去_layout/default.html的头文件中去设置.
+#google_analytics_id: UA-72808482-1
+#google_analytics_domain: auto
+
+# 自定义永久链接
+permalink: /blog/:year/:month/:day/:title/
+
+#默认底图
+header-img: /img/default-bg.jpg
+
+RSS: feed.xml
+categories_path: categories
+tags_path: tags
+archive_path: archives
+about_path: about
+
+BASE_PATH:
+
+
+# SNS settings
+
+weibo_username:     haha
+facebook_username:     haha
+github_username:    haha
+google_username:  101167914127123982138/posts
+RSS: feed.xml
+email: doreanmon@yahoo.com
+linkedin: Eric.x
+
+anchorjs: true                          # 修改在default.html->footer
+
+
+# 评论系统
+# Duoshuo settings
+duoshuo_username: Eric.x
+# Share component is depend on Comment so we can NOT use share only.
+duoshuo_share: false                     # set to false if you want to use Comment without Sharing
+url: "http://eric-hello.github.io" 
+
+# page Sidebar settings
+sidebar-about-description: "A future technique geek."
+sidebar-avatar: /img/me2.jpg     # img前面加`/`绝对引用。
+
+
+# Friends
+friends: [
+    {
+        title: "Eric.x",
+        href: "http://eric-xin.github.io"
+    },{
+        title: "A very Good Blog",
+        href: "http://eric-haha.github.io"
+    },{
+        title: "Apple",
+        href: "https://apple.com"
+    },{
+        title: "Music",
+        href: "https://eric-hehe.github.io"
+    }
+]
+
+
+
