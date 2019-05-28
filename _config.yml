@@ -66,31 +66,19 @@ sidebar-avatar: /img/me2.jpg     # img前面加`/`绝对引用。
 
 # Friends
 friends: [
-	{   
-        title: "R学习社区",
-        href: "http://bzrlc.github.io/about/"
-	},{
-        title: "Hux-模板来源",
-        href: "https://github.com/Huxpro/huxpro.github.io"
-	},{
-        title: "谢益辉",
-        href: "http://yihui.name"
-	},{
-        title: "落园",
-        href: "http://www.loyhome.cn/"
+	{
+        title: "Eric.x",
+        href: "http://eric-xin.github.io"
     },{
-        title: "刘思喆",
-        href: "http://www.bjt.name/"
+        title: "A very Good Blog",
+        href: "http://eric-haha.github.io"
     },{
-        title: "邱怡轩",
-        href: "http://yixuan.cos.name/cn/"
-	},{
-        title: "JRQ 西南交大",
-        href: "http://ruiqiangjiao.github.io/"
-	},{
-        title: "MenBin 东财应统",
-        href: "http://binmen.github.io/blog"
-	}
+        title: "Apple",
+        href: "https://apple.com"
+    },{
+        title: "Music",
+        href: "https://eric-hehe.github.io"
+    }
 ]
 
 
